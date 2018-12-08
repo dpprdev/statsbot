@@ -1,6 +1,6 @@
 #### Stats-bot <hr>
 
-*Your Discord server stats bot.*
+*Your Discord server stats bot. Bot does change channel names with the current stats about server. The stats shows how modern your server is and makes your reputation better.*
 
 # How to get channel ID-s?
 
