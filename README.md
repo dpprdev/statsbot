@@ -6,10 +6,10 @@
 
 *Enable Developer mode and follow steps below*
 
-<img src="screenshots/cY8DtsFjGG.gif"/>
-<img src="https://media0.giphy.com/media/l4HnY84pKDQCwm7II/giphy.gif?cid=ecf05e475c0c271a4c6c736f329ee9f5"/>
+<img src="https://chat.is-going-to-rickroll.me/i/WoeNL1XOK4Q.gif"/>
+
 *When the Developer mode is enabled, simply right click the channel, click `Copy ID` and the ID will be saved to your clipboard.*
 
-<img src="screenshots/t5Q17SniP7.gif"/>
+<img src="https://chat.is-going-to-rickroll.me/i/-p66Ed3ibyM.gif"/>
 
 <hr>
