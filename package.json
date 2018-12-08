@@ -1,15 +1,19 @@
 {
   "name": "statsbot",
-  "description": "Stats bot for your Discord server.",
-  "version": "v0.1",
-  "dependencies": {
-    "https://www.npmjs.com/package/moment": "2.22.2",
-    "https://www.npmjs.com/package/discord.js": "11.4.2"
+  "version": "0.0.1",
+  "description": "Discord bot for your stats.",
+  "scripts": {
+    "start": "node index.js"
   },
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/dpprdev/statsbot/"
-    }
-  ]
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "moment": "^2.22.2"
+  },
+  "engines": {
+    "node": "10.x"
+  },
+  "repository": {
+    "url": "https://guthub.com/dpprdev/statsbot"
+  },
+  "license": "MIT"
 }
