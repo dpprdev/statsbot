@@ -36,7 +36,7 @@ client.on('guildMemberAdd', member => {
 catch (e) {
     console.log(e)
 }
-client.on('guildMemberAdd', member => {
+client.on('guildMemberRemove', member => {
         //All choices are optional here. Bot wont work if the channel ID's are wrong. How to properly get ID's read in README.md 
         try {
             guild.channels.get(options.total).setName(`Total Members: ${member.guild.memberCount}`) // You can change this text, but still keep ${guild.memberCount}, as it defines total members.
