@@ -2,7 +2,7 @@ const Discord = require("discord.js") //Define Discord.
 const moment = require("moment"); //Define moment.
 const client = new Discord.Client(); //The bot itself.
 
-let settings = {
+let options = {
     total: 'channel id',
     users: 'channel id',
     bots: 'channel id'
@@ -28,23 +28,25 @@ ______________________________
 client.on('guildMemberAdd', member => {
         //All choices are optional here. Bot wont work if the channel ID's are wrong. How to properly get ID's read in README.md 
         try {
-            guild.channels.get(options.total).setName(`Total Members: ${member.guild.memberCount}`) // You can change this text, but still keep ${guild.memberCount}, as it defines total members.
-            guild.channels.get(options.users).setName(`Users: ${member.guild.members.filter(m => !m.user.bot).size}`) // This text is also changeable, still keep the code in ${}
-            guild.channels.get(options.bots).setName(`Bots: ${member.guild.members.filter(m => m.user.bot).size}`) // This text is also changeable, still keep the code in ${}
-        })
-}
-catch (e) {
-    console.log(e)
-}
+            member.guild.channels.get(options.total).setName(`Total Members: ${member.guild.memberCount}`) // You can change this text, but still keep ${guild.memberCount}, as it defines total members.
+            member.guild.channels.get(options.users).setName(`Users: ${member.guild.members.filter(m => !m.user.bot).size}`) // This text is also changeable, still keep the code in ${}
+            member.guild.channels.get(options.bots).setName(`Bots: ${member.guild.members.filter(m => m.user.bot).size}`) // This text is also changeable, still keep the code in ${}
+        
+        }
+        catch (e) {
+        console.log(e)
+        }
+  })
 client.on('guildMemberRemove', member => {
         //All choices are optional here. Bot wont work if the channel ID's are wrong. How to properly get ID's read in README.md 
         try {
-            guild.channels.get(options.total).setName(`Total Members: ${member.guild.memberCount}`) // You can change this text, but still keep ${guild.memberCount}, as it defines total members.
-            guild.channels.get(options.users).setName(`Users: ${member.guild.members.filter(m => !m.user.bot).size}`) // This text is also changeable, still keep the code in ${}
-            guild.channels.get(options.bots).setName(`Bots: ${member..members.filter(m => m.user.bot).size}`) // This text is also changeable, still keep the code in ${}
-        })
-}
-catch (e) {
-    console.log(e)
-}
+            member.guild.channels.get(options.total).setName(`Total Members: ${member.guild.memberCount}`) // You can change this text, but still keep ${guild.memberCount}, as it defines total members.
+            member.guild.channels.get(options.users).setName(`Users: ${member.guild.members.filter(m => !m.user.bot).size}`) // This text is also changeable, still keep the code in ${}
+            member.guild.channels.get(options.bots).setName(`Bots: ${member.members.filter(m => m.user.bot).size}`) // This text is also changeable, still keep the code in ${}
+        
+        }
+        catch (e) {
+        console.log(e)
+        }
+})
 client.login("token goes here")
