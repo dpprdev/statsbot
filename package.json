@@ -13,7 +13,7 @@
     "node": "10.x"
   },
   "repository": {
-    "url": "https://guthub.com/dpprdev/statsbot"
+    "url": "https://github.com/dpprdev/statsbot"
   },
   "license": "MIT"
 }
