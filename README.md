@@ -1,6 +1,7 @@
 #### Stats-Bot
 [![Discord](https://discordapp.com/api/guilds/462966890801790998/widget.png)](https://discord.gg/g4XxyP7)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/2fb1a80eede84d149412d61d4d7052ae)](https://github.com/dpprdev/statsbot)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fdpprdev%2Fstatsbot.svg?type=shield)](https://github.com/dpprdev/statsbot)
 
 <hr>
 
