@@ -1,6 +1,7 @@
 #### Stats-Bot
 [![Discord](https://discordapp.com/api/guilds/462966890801790998/widget.png)](https://discord.gg/g4XxyP7)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/2fb1a80eede84d149412d61d4d7052ae)](https://github.com/dpprdev/statsbot)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fdpprdev%2Fstatsbot.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fdpprdev%2Fstatsbot?ref=badge_shield)
 
 <hr>
 
@@ -19,3 +20,7 @@
 <img src="https://chat.is-going-to-rickroll.me/i/-p66Ed3ibyM.gif"/>
 
 <hr>
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fdpprdev%2Fstatsbot.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fdpprdev%2Fstatsbot?ref=badge_large)
