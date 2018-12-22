@@ -2,7 +2,7 @@
 
 *Your Discord server stats bot. Bot does change channel names with the current stats about server. The stats shows how modern your server is and makes your reputation better.*
 
-# How to get channel ID-s?
+# How to get channel ID-s
 
 *Enable Developer mode and follow steps below*
 
