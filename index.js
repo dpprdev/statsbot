@@ -11,13 +11,13 @@ let options = {
 client.on("ready", () => {
 
     if (client.guilds.size < 1) {
-        console.error("The bot is not in any guild.");
+        console.log("The bot is not in any guild.");
         process.exit(0);
         return;
     }; //Shutdowns, if bot is not in any guild
     const text = `
 ______________________________
-Ready since: ${moment(Date.now()).format('dddd, MMMM do YYYY, HH:mm:ss')}
+Ready since: ${moment(Date.now()).format("dddd, MMMM do YYYY, HH:mm:ss")}
 Server: ${client.guilds.first().name}
 Total server members: ${client.guilds.first().memberCount}
 Credits: https://github.com/dpprdev/statsbot/
@@ -34,8 +34,8 @@ client.on("guildMemberAdd", (member) => {
         
         }
         catch (e) {
-        console.log(e)
-        };
+        console.log(e);
+        }
   });
 client.on("guildMemberRemove", (member) => {
         //All choices are optional here. Bot wont work if the channel ID's are wrong. How to properly get ID's read in README.md 
@@ -47,6 +47,6 @@ client.on("guildMemberRemove", (member) => {
         }
         catch (e) {
         console.log(e);
-        };
+        }
 });
 client.login("token goes here");
