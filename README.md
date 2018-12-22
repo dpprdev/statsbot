@@ -5,7 +5,7 @@
 
 <hr>
 
-*You need to set Bots token and IDs in `index.js` to make Bot work.*
+*You need to set Bots token and IDs in `index.js` to make Bot work for your server.*
 
 <hr>
 
