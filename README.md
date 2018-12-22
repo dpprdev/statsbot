@@ -1,9 +1,11 @@
 #### Stats-Bot
 [![Discord](https://discordapp.com/api/guilds/462966890801790998/widget.png)](https://discord.gg/g4XxyP7)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/2fb1a80eede84d149412d61d4d7052ae)](https://github.com/dpprdev/statsbot)
+
 <hr>
-*YOU NEED TO CHANGE SOME STUFF IN INDEX.JS TO MAKE BOT WORK.*
-<hr>
+
+*YOU NEED TO CHANGE SOME STUFF IN INDEX.JS TO MAKE BOT WORK*
+
 *Your Discord server stats bot. Bot does change channel names with the current stats about server. The stats shows how modern your server is and makes your reputation better.*
 
 # How to get channel ID-s
