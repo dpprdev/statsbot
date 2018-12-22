@@ -14,7 +14,7 @@ client.on("ready", () => {
         console.log("The bot is not in any guild.");
         process.exit(0);
         return;
-    }; //Shutdowns, if bot is not in any guild
+    } //Shutdowns, if bot is not in any guild
     const text = `
 ______________________________
 Ready since: ${moment(Date.now()).format("dddd, MMMM do YYYY, HH:mm:ss")}
