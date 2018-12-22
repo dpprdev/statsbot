@@ -1,7 +1,7 @@
 const Discord = require("discord.js"); //Define Discord.
 const moment = require("moment"); //Define moment.
 const client = new Discord.Client(); //The bot itself.
-
+const Console = console;
 let options = {
     total: "channel id",
     users: "channel id",
