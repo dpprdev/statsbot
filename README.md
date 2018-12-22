@@ -4,7 +4,7 @@
 
 <hr>
 
-*YOU NEED TO CHANGE SOME STUFF IN INDEX.JS TO MAKE BOT WORK*
+*`You need to change some stuff in index.js to make bot work.`*
 
 *Your Discord server stats bot. Bot does change channel names with the current stats about server. The stats shows how modern your server is and makes your reputation better.*
 
